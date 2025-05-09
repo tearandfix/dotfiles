@@ -1,0 +1,6 @@
+[window]
+opacity = 0.9
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/iterm.toml"
+]
