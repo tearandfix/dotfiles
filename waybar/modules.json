@@ -92,7 +92,7 @@
     "hyprland/language": {
        "format": "  {}",
        "format-en": "EN",
-       "format-ru": "RU"
+       "format-uk": "UA"
     },
     "battery": {
         "states": {
