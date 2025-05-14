@@ -68,6 +68,26 @@ window#waybar {
     min-width: 60px;
 }
 
+#cpu {
+    font-family: SpaceMono Nerd Font, feather;
+    font-weight: 900;
+    font-size: 13pt;
+    color: #2aa9ff;
+    padding: 0 3px;
+    background: rgb(64, 72, 124);
+    border-radius: 5px;
+}
+
+#memory {
+    font-family: SpaceMono Nerd Font, feather;
+    font-weight: 900;
+    font-size: 13pt;
+    color: #69ff94;
+    padding: 0 3px;
+    background: rgb(34, 70, 36);
+    border-radius: 5px;
+}
+
 #clock:hover,
 #battery:hover,
 #cpu:hover,
