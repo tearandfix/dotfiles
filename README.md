@@ -11,6 +11,12 @@ Arch linux with the following software:
  * wofi
  * brave
  * copyq
- * dunst
+ * swaync
  * alacritty
+ * nm-applet
+
+Terminal font: JetBrainsMono Nerd Font Mono
+```
+pacman -S ttf-jetbrains-mono-nerd
+```
 

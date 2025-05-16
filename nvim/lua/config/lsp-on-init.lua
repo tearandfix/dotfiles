@@ -6,7 +6,7 @@ return function()
   vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, {})
   vim.keymap.set('n', 'gr', require('telescope.builtin').lsp_references, {})
   vim.keymap.set('n', 'gh', vim.lsp.buf.hover, {})
-  vim.keymap.set('n', 'ga', ':ClangdSwitchSourceHeader<CR>', {})
+  vim.keymap.set('n', 'ga', ':LspClangdSwitchSourceHeader<CR>', {})
 
   vim.diagnostic.config({
     virtual_text = false
